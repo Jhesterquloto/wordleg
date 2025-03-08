@@ -1,4 +1,4 @@
-const words = ["apple", "grape", "lemon", "mango", "peach"];
+const words = ["apple", "grape", "lemon", "mango", "peach" , "world" , "snake" , "panda" , "horse" ,"earth",];
 const targetWord = words[Math.floor(Math.random() * words.length)].toUpperCase();
 const gridContainer = document.getElementById("grid-container");
 
