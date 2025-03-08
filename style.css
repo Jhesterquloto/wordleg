@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url(bgi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.correct {
+    background-color: rgb(4, 82, 4) !important;
+}
+.present {
+    background-color: rgb(255, 185, 56) !important;
+}
+.absent {
+    background-color: grey !important;
+}
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #87d7d1;
+    border-radius: 10px;
+    border: #549692 4px solid;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #a4e4ff;
+    border-radius: 20px;
+
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
